@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyTorch checkpoints & weights
+*.pth
+*.pt
+*.ckpt
+
+# Logs & TensorBoard
+logs/
+runs/
+*.log
+
+# Results & outputs
+*.json
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (never commit datasets)
+data/
+datasets/
