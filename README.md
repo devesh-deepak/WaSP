@@ -193,23 +193,3 @@ benchmarks/
 | `q` | 0.25 | Smooth-region quantile threshold |
 | `alpha` | 0.01 | WaSP loss scale in combined training objective |
 
----
-
-## Citation
-
-If you use WaSP in your research, please cite:
-
-```bibtex
-@article{wasp2025,
-  title   = {WaSP: Wavelet-based Semantically-guided Perceptual Metric for Super-Resolution},
-  author  = {[Authors]},
-  journal = {[Venue]},
-  year    = {2025}
-}
-```
-
----
-
-## License
-
-This project is released under the [MIT License](LICENSE).
