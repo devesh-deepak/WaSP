@@ -193,3 +193,5 @@ benchmarks/
 | `q` | 0.25 | Smooth-region quantile threshold |
 | `alpha` | 0.01 | WaSP loss scale in combined training objective |
 
+## Model weights will be released soon
+
