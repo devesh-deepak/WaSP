@@ -1,0 +1,19 @@
+{
+  "title": "WaSP: A Wavelet-based Semantically-guided Perceptual Metric for Image Super-Resolution (code)",
+  "upload_type": "software",
+  "description": "<p>Code accompanying the paper <i>WaSP: A Wavelet-based Semantically-guided Perceptual Metric for Image Super-Resolution</i> (D. Kumar, G. Sikka, C.-C. Lin, S. Singh; submitted to Scientific Reports).</p><p>Contents: the WaSP metric (pip-installable), the super-resolution models and the two-phase fine-tuning code with the exact training recipes, every evaluation, analysis and figure script of the paper, and the per-image result caches the tables and figures were built from.</p><p>The code is released under the MIT license, except models/third_party/sinsr (SinSR / ResShift code, CC BY-NC-SA 4.0, non-commercial research use). Fine-tuned checkpoints are distributed separately.</p>",
+  "creators": [
+    {"name": "Kumar, Devesh"},
+    {"name": "Sikka, Geeta"},
+    {"name": "Lin, Chia-Chen"},
+    {"name": "Singh, Samayveer"}
+  ],
+  "license": "MIT",
+  "keywords": [
+    "image super-resolution",
+    "image quality assessment",
+    "perceptual metric",
+    "wavelet transform",
+    "texture hallucination"
+  ]
+}
