@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "WaSP: Wavelet-based Semantically-guided Perceptual metric (code)"
+authors:
+  - family-names: Kumar
+    given-names: Devesh
+  - family-names: Sikka
+    given-names: Geeta
+  - family-names: Lin
+    given-names: Chia-Chen
+  - family-names: Singh
+    given-names: Samayveer
+repository-code: "https://github.com/devesh-deepak/WaSP"
+license: MIT
+version: 1.1.0
+preferred-citation:
+  type: article
+  title: "WaSP: A Wavelet-based Semantically-guided Perceptual Metric for Image Super-Resolution"
+  authors:
+    - family-names: Kumar
+      given-names: Devesh
+    - family-names: Sikka
+      given-names: Geeta
+    - family-names: Lin
+      given-names: Chia-Chen
+    - family-names: Singh
+      given-names: Samayveer
+  journal: "Scientific Reports"
+  status: submitted

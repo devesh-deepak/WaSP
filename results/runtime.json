@@ -1,0 +1,17 @@
+{
+ "device": "NVIDIA H100 NVL",
+ "ms_per_image": {
+  "256x256": {
+   "WaSP (full)": 3.3805882558226585,
+   "WaSP: Branch B (perceptual)": 1.0643964633345604,
+   "WaSP: Branches A+C (wavelet)": 2.1954579278826714,
+   "LPIPS (alex)": 1.2985765933990479
+  },
+  "512x512": {
+   "WaSP (full)": 3.722279332578182,
+   "WaSP: Branch B (perceptual)": 1.085842028260231,
+   "WaSP: Branches A+C (wavelet)": 2.4933582171797752,
+   "LPIPS (alex)": 1.2737512588500977
+  }
+ }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wasp-metric"
+version = "1.1.0"
+description = "WaSP: a wavelet-based perceptual quality metric for image super-resolution"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+  { name = "Devesh Kumar" }, { name = "Geeta Sikka" },
+  { name = "Chia-Chen Lin" }, { name = "Samayveer Singh" },
+]
+dependencies = ["torch>=1.13", "torchvision>=0.14", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/devesh-deepak/WaSP"
+
+# Only the metric is installed as a package; the experiment code (models/, training/,
+# evaluation/, figures/) runs from the repository root.
+[tool.setuptools]
+packages = ["wasp"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["models/third_party"]
