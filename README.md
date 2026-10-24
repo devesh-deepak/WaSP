@@ -1,5 +1,7 @@
 # WaSP: a wavelet-based perceptual metric for image super-resolution
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23620078.svg)](https://doi.org/10.5281/zenodo.23620078)
+
 Code for the paper *WaSP: A Wavelet-based Semantically-guided Perceptual Metric for Image
 Super-Resolution* (D. Kumar, G. Sikka, C.-C. Lin, S. Singh; submitted to *Scientific Reports*).
 
@@ -222,6 +224,9 @@ terms of their authors. The released fine-tuned SinSR checkpoints derive from Si
 under the same non-commercial terms.
 
 ## Citation
+
+The code is archived on Zenodo: [10.5281/zenodo.23620078](https://doi.org/10.5281/zenodo.23620078)
+(all versions; v1.1.0, the version used in the paper: [10.5281/zenodo.23620079](https://doi.org/10.5281/zenodo.23620079)).
 
 ```bibtex
 @article{kumar_wasp,
